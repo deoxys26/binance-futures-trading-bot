@@ -1,0 +1,40 @@
+2026-06-01 13:33:39,768 - INFO - Trading bot started
+2026-06-01 13:33:39,769 - INFO - Placing order: symbol=BTCUSDT, side=BUY, type=MARKET, quantity=0.001, price=None
+2026-06-01 13:33:39,770 - INFO - API Request: POST https://testnet.binancefuture.com/fapi/v1/order
+2026-06-01 13:33:39,770 - INFO - Request Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'newOrderRespType': 'RESULT', 'timestamp': 1780301019769}
+2026-06-01 13:33:40,450 - INFO - API Response Status Code: 200
+2026-06-01 13:33:40,450 - INFO - API Response Body: {'orderId': 13675486986, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'iwbk4jLotqt4zhaWpeNx0q', 'price': '0.00', 'avgPrice': '72796.100000', 'origQty': '0.0010', 'executedQty': '0.0010', 'cumQty': '0.0010', 'cumQuote': '72.796100', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1780301020152}
+2026-06-01 13:33:40,452 - INFO - Order placed successfully
+2026-06-01 13:34:05,208 - INFO - Trading bot started
+2026-06-01 13:34:05,208 - INFO - Placing order: symbol=BTCUSDT, side=BUY, type=MARKET, quantity=0.001, price=None
+2026-06-01 13:34:05,209 - INFO - API Request: POST https://testnet.binancefuture.com/fapi/v1/order
+2026-06-01 13:34:05,209 - INFO - Request Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'newOrderRespType': 'RESULT', 'timestamp': 1780301045209}
+2026-06-01 13:34:05,597 - INFO - API Response Status Code: 200
+2026-06-01 13:34:05,597 - INFO - API Response Body: {'orderId': 13675510057, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'rfOdR4DCpVYHyyJXDEcOF6', 'price': '0.00', 'avgPrice': '72807.100000', 'origQty': '0.0010', 'executedQty': '0.0010', 'cumQty': '0.0010', 'cumQuote': '72.807100', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1780301045354}
+2026-06-01 13:34:05,600 - INFO - Order placed successfully
+2026-06-01 13:34:14,318 - INFO - Trading bot started
+2026-06-01 13:34:14,319 - INFO - Placing order: symbol=BTCUSDT, side=SELL, type=LIMIT, quantity=0.001, price=90000.0
+2026-06-01 13:34:14,319 - INFO - API Request: POST https://testnet.binancefuture.com/fapi/v1/order
+2026-06-01 13:34:14,319 - INFO - Request Params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'newOrderRespType': 'RESULT', 'price': 90000.0, 'timeInForce': 'GTC', 'timestamp': 1780301054319}
+2026-06-01 13:34:14,681 - INFO - API Response Status Code: 200
+2026-06-01 13:34:14,681 - INFO - API Response Body: {'orderId': 13675518244, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '9FbkDJgO6EEnjw0ykpQdqD', 'price': '90000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1780301054504}
+2026-06-01 13:34:14,684 - INFO - Order placed successfully
+2026-06-01 13:34:45,092 - INFO - Trading bot started
+2026-06-01 13:34:45,093 - INFO - Placing order: symbol=BTCUSDT, side=BUY, type=LIMIT, quantity=0.001, price=50000.0
+2026-06-01 13:34:45,093 - INFO - API Request: POST https://testnet.binancefuture.com/fapi/v1/order
+2026-06-01 13:34:45,094 - INFO - Request Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.001, 'newOrderRespType': 'RESULT', 'price': 50000.0, 'timeInForce': 'GTC', 'timestamp': 1780301085093}
+2026-06-01 13:34:45,683 - INFO - API Response Status Code: 200
+2026-06-01 13:34:45,683 - INFO - API Response Body: {'orderId': 13675567173, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'IXkDiIaDlqWig5lC3W96cp', 'price': '50000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1780301085351}
+2026-06-01 13:34:45,687 - INFO - Order placed successfully
+2026-06-01 13:34:58,096 - INFO - Trading bot started
+2026-06-01 13:34:58,096 - INFO - Placing order: symbol=BTCUSDT, side=BUY, type=LIMIT, quantity=0.001, price=50000.0
+2026-06-01 13:34:58,096 - INFO - API Request: POST https://testnet.binancefuture.com/fapi/v1/order
+2026-06-01 13:34:58,096 - INFO - Request Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.001, 'newOrderRespType': 'RESULT', 'price': 50000.0, 'timeInForce': 'GTC', 'timestamp': 1780301098096}
+2026-06-01 13:34:58,455 - INFO - API Response Status Code: 200
+2026-06-01 13:34:58,455 - INFO - API Response Body: {'orderId': 13675593005, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'oaoSEGkerMhkgEOia5XC0g', 'price': '50000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1780301098259}
+2026-06-01 13:34:58,458 - INFO - Order placed successfully
+2026-06-01 13:35:07,813 - ERROR - Input error: Side must be BUY or SELL
+2026-06-01 13:35:15,210 - ERROR - Input error: Order type must be MARKET or LIMIT
+2026-06-01 13:35:20,648 - ERROR - Input error: Price is required for LIMIT orders
+2026-06-01 13:35:27,750 - ERROR - Input error: Price is not required for MARKET orders
+2026-06-01 13:35:37,207 - ERROR - Input error: Quantity must be greater than 0
